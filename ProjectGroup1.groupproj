@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CADC8C4B-E135-43D0-AF28-3E2B411F6C0F}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="PLista.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PLista">
+        <MSBuild Projects="PLista.cbproj"/>
+    </Target>
+    <Target Name="PLista:Clean">
+        <MSBuild Projects="PLista.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PLista:Make">
+        <MSBuild Projects="PLista.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PLista"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PLista:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PLista:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

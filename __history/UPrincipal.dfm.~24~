@@ -1,0 +1,278 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Ejercicios con Listas'
+  ClientHeight = 345
+  ClientWidth = 545
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 113
+    Top = 52
+    Width = 79
+    Height = 19
+    Align = alCustom
+    Caption = 'Numero 1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 113
+    Top = 90
+    Width = 79
+    Height = 19
+    Caption = 'Numero 2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Resultado: TLabel
+    Left = 244
+    Top = 136
+    Width = 108
+    Height = 23
+    Caption = 'Resultado'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 203
+    Top = 54
+    Width = 50
+    Height = 21
+    Cursor = crIBeam
+    Align = alCustom
+    TabOrder = 0
+  end
+  object Button4: TButton
+    Left = 313
+    Top = 54
+    Width = 71
+    Height = 25
+    Align = alCustom
+    Caption = 'Introducir'
+    TabOrder = 1
+    OnClick = Button4Click
+  end
+  object Button1: TButton
+    Left = 259
+    Top = 52
+    Width = 39
+    Height = 25
+    Caption = 'CE'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 336
+    Top = 191
+    Width = 87
+    Height = 25
+    Caption = '^'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Edit2: TEdit
+    Left = 203
+    Top = 91
+    Width = 50
+    Height = 21
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 259
+    Top = 89
+    Width = 39
+    Height = 25
+    Caption = 'CE'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button5: TButton
+    Left = 313
+    Top = 89
+    Width = 71
+    Height = 25
+    Caption = 'Introducir'
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 203
+    Top = 134
+    Width = 35
+    Height = 25
+    Caption = 'CE'
+    TabOrder = 7
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 243
+    Top = 222
+    Width = 87
+    Height = 25
+    Caption = 'RaizCuadrada'
+    TabOrder = 8
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 57
+    Top = 191
+    Width = 87
+    Height = 25
+    Caption = 'Seno'
+    TabOrder = 9
+    OnClick = Button8Click
+  end
+  object Button9: TButton
+    Left = 150
+    Top = 191
+    Width = 87
+    Height = 25
+    Caption = 'Coseno'
+    TabOrder = 10
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 243
+    Top = 191
+    Width = 87
+    Height = 25
+    Caption = 'Tangente'
+    TabOrder = 11
+    OnClick = Button10Click
+  end
+  object Button11: TButton
+    Left = 57
+    Top = 222
+    Width = 87
+    Height = 25
+    Caption = 'Logaritmo'
+    TabOrder = 12
+    OnClick = Button11Click
+  end
+  object Button12: TButton
+    Left = 150
+    Top = 222
+    Width = 87
+    Height = 25
+    Caption = 'LN'
+    TabOrder = 13
+    OnClick = Button12Click
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 545
+    Height = 46
+    Caption = 'Calculadora'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Button13: TButton
+    Left = 336
+    Top = 222
+    Width = 87
+    Height = 25
+    Caption = 'Modulo'
+    TabOrder = 15
+    OnClick = Button13Click
+  end
+  object Button14: TButton
+    Left = 429
+    Top = 191
+    Width = 75
+    Height = 25
+    Caption = 'EXP'
+    TabOrder = 16
+    OnClick = Button14Click
+  end
+  object Button15: TButton
+    Left = 429
+    Top = 222
+    Width = 75
+    Height = 25
+    Caption = '$->Bs'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+    OnClick = Button15Click
+  end
+  object Button16: TButton
+    Left = 429
+    Top = 253
+    Width = 75
+    Height = 25
+    Caption = #8364'->Bs'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 18
+    OnClick = Button16Click
+  end
+  object Button17: TButton
+    Left = 336
+    Top = 253
+    Width = 87
+    Height = 25
+    Caption = 'Bs->$'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 19
+    OnClick = Button17Click
+  end
+  object Button18: TButton
+    Left = 243
+    Top = 253
+    Width = 87
+    Height = 25
+    Caption = 'Bs->'#8364
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 20
+  end
+end

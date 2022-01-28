@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/27 16:42:34.000.027,=C:\Users\AlanJoelAriasMoron\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>2022/01/27 16:42:34.000.008,=C:\Users\AlanJoelAriasMoron\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/01/27 16:50:50.000.263,C:\Users\AlanJoelAriasMoron\Documents\Embarcadero\Studio\Projects\Unit3.cpp=C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\UPrincipal.cpp</Transaction>
+    <Transaction>2022/01/27 16:50:50.000.263,C:\Users\AlanJoelAriasMoron\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\UPrincipal.dfm</Transaction>
+    <Transaction>2022/01/27 16:50:50.000.263,C:\Users\AlanJoelAriasMoron\Documents\Embarcadero\Studio\Projects\Unit3.h=C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\UPrincipal.h</Transaction>
+    <Transaction>2022/01/27 16:51:19.000.587,C:\Users\AlanJoelAriasMoron\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\Project1PCH1.h</Transaction>
+    <Transaction>2022/01/27 16:51:28.000.501,C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\Project1PCH1.h=C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\PListaPCH1.h</Transaction>
+    <Transaction>2022/01/27 16:51:28.000.515,C:\Users\AlanJoelAriasMoron\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\PLista.cbproj</Transaction>
+    <Transaction>2022/01/27 16:54:56.000.166,=C:\Users\AlanJoelAriasMoron\Desktop\Listas\UNodo.cpp</Transaction>
+    <Transaction>2022/01/27 16:55:18.000.837,C:\Users\AlanJoelAriasMoron\Desktop\Listas\UNodo.cpp=</Transaction>
+    <Transaction>2022/01/27 16:57:17.000.480,=C:\Users\AlanJoelAriasMoron\Desktop\ProyectoED\UNodo.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
